@@ -24,6 +24,8 @@ int main()
         int m = 99999999;
         for(int i = 0; i < r; i++){
             int sum = 0;
+
+            // 因為自己減自己等於 0 ，所以不用跳過自己
             for(int j = 0; j < r; j++){
                 sum += abs(s[i] - s[j]);
             }
