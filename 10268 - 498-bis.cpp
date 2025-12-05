@@ -3,7 +3,7 @@
 2. 會 overflow，型別得用 long long
 
 3. vector<long long> arr;	// 動態陣列
-4. arr.push_back(i);	// 插尾
+4. arr.push_back(i);	// vector 插尾
 */
 
 #include <bits/stdc++.h>
