@@ -1,5 +1,5 @@
 /*
-1. abs(), 取絕對值
+1. abs();	// 取絕對值
 */
 
 #include <bits/stdc++.h>
