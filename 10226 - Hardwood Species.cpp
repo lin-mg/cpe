@@ -1,3 +1,7 @@
+/*
+1. 難點：讀測資
+2. 不同測資輸出間要加換行
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
