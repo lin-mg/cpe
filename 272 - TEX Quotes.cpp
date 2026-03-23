@@ -1,3 +1,8 @@
+/*
+1. 字元裡面，如果要表示 '''，要 '\''；字串裡面，如果要表示 """，要 "\""
+   會衝突要加反斜線，不會衝突則不用
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -14,7 +19,7 @@ int main()
                 if(!flag){
                     cout << "``";
                 } else {
-                    cout << "\'\'";
+                    cout << "''";
                 }
                 flag = !flag;
             } else {
